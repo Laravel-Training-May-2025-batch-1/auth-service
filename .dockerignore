@@ -1,0 +1,20 @@
+# Exclude unnecessary files and directories
+node_modules
+vendor
+.env
+storage/*.key
+storage/pail
+storage/app/public
+/public/build
+/public/hot
+/public/storage
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+*.log
+/tests
+/.git
+/.github
+/.vscode
+/.idea
+.DS_Store
